@@ -6,18 +6,18 @@ class WelcomeScene extends Phaser.Scene {
     super("WelcomeScene");
   }
   preload() {
-    this.load.image("welcomebg", "/public/assets/welcomebg.png");
-    this.load.image("progress", "/public/assets/progress.png");
-    this.load.image("progress2", "/public/assets/progress2.png");
-    this.load.image("playbtn", "/public/assets/wooden/Asset 11button.png");
-    this.load.image("soundOn", "/public/assets/wooden/Asset 7.png");
-    this.load.image("soundOff", "/public/assets/wooden/Asset 6.png");
-    this.load.image("detailsBox", "/public/assets/wooden/Asset 12button.png");
-    this.load.audio("startSound", "/public/assets/startSound.mp3");
-    this.load.image("winbg", "/public/assets/winbg.png");
-    this.load.image("homebtn", "/public/assets/wooden/Asset 8.png");
-    this.load.image("replaybtn", "/public/assets/wooden/Asset 11.png");
-    this.load.image("honeypot", "/public/assets/honeypot.png");
+    this.load.image("welcomebg", "/assets/welcomebg.png");
+    this.load.image("progress", "/assets/progress.png");
+    this.load.image("progress2", "/assets/progress2.png");
+    this.load.image("playbtn", "/assets/wooden/Asset 11button.png");
+    this.load.image("soundOn", "/assets/wooden/Asset 7.png");
+    this.load.image("soundOff", "/assets/wooden/Asset 6.png");
+    this.load.image("detailsBox", "/assets/wooden/Asset 12button.png");
+    this.load.audio("startSound", "/assets/startSound.mp3");
+    this.load.image("winbg", "/assets/winbg.png");
+    this.load.image("homebtn", "/assets/wooden/Asset 8.png");
+    this.load.image("replaybtn", "/assets/wooden/Asset 11.png");
+    this.load.image("honeypot", "/assets/honeypot.png");
 
     this.load.image("front", "/assets/depth5.png");
     this.load.image("bg", "/assets/fullbg.png");
