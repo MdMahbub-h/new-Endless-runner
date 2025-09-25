@@ -33,7 +33,7 @@ class StartScene extends Phaser.Scene {
             onComplete: () => {
               if (!scoreBoxOn) {
                 
- window.open("https://meet.google.com/jqe-fvxr-dht", "_blank");
+ // window.open("https://meet.google.com/jqe-fvxr-dht", "_blank");
                 let detailsBox = this.add
                   .image(
                     this.scale.width / 2,
@@ -46,7 +46,7 @@ class StartScene extends Phaser.Scene {
                   .text(
                     this.scale.width / 2,
                     this.scale.height / 2.8,
-                    "You have to collect\n\nHoney Pots.Be aware\n\nof birds. Bird can\n\nstole your honey",
+                    "Contact me on my email.\nEmail: mdmahbubhossine@gmail.com",
                     {
                       fontSize: "30px",
                       fontStyle: "bold",
@@ -108,3 +108,4 @@ class StartScene extends Phaser.Scene {
 }
 
 export default StartScene;
+
